@@ -22,9 +22,9 @@ AssetImportWorker0
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-50097
+50985
 Successfully changed project path to: /Users/JADUCUT/Documents/GDA12Final/Squadron SpearPoint
-/Users/JADUCUT/Documents/GDA12Final/Squadron SpearPoint
+Could not lock editor preferences. Preferences updates for this instance of Unity will not be saved./Users/JADUCUT/Documents/GDA12Final/Squadron SpearPoint
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -54,7 +54,7 @@ Successfully changed project path to: /Users/JADUCUT/Documents/GDA12Final/Squadr
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 98.31 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 104.66 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.10f1 (1c7d0df0160b)
 [Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2021.3.10f1/Unity.app/Contents/Resources/UnitySubsystems
@@ -69,75 +69,75 @@ Initialize mono
 Mono path[0] = '/Applications/Unity/Hub/Editor/2021.3.10f1/Unity.app/Contents/Managed'
 Mono path[1] = '/Applications/Unity/Hub/Editor/2021.3.10f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
 Mono config path = '/Applications/Unity/Hub/Editor/2021.3.10f1/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56706
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56477
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /Applications/Unity/Hub/Editor/2021.3.10f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
-Registered in 0.002084 seconds.
+Registered in 0.000475 seconds.
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 95.22 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 97.98 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.592 seconds
+- Completed reload, in  1.455 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1593ms)
-		BeginReloadAssembly (164ms)
+	ReloadAssembly (1456ms)
+		BeginReloadAssembly (149ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (2ms)
-		EndReloadAssembly (1165ms)
-			LoadAssemblies (162ms)
+			CreateAndSetChildDomain (3ms)
+		EndReloadAssembly (1062ms)
+			LoadAssemblies (147ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (147ms)
+			SetupTypeCache (150ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (36ms)
-			SetupLoadedEditorAssemblies (821ms)
+			RebuildScriptCaches (35ms)
+			SetupLoadedEditorAssemblies (725ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (21ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (95ms)
-				BeforeProcessingInitializeOnLoad (3ms)
-				ProcessInitializeOnLoadAttributes (518ms)
-				ProcessInitializeOnLoadMethodAttributes (183ms)
+				InitializePlatformSupportModulesInManaged (17ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (98ms)
+				BeforeProcessingInitializeOnLoad (5ms)
+				ProcessInitializeOnLoadAttributes (450ms)
+				ProcessInitializeOnLoadMethodAttributes (154ms)
 				AfterProcessingInitializeOnLoad (0ms)
-				EditorAssembliesLoaded (0ms)
+				EditorAssembliesLoaded (1ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.001927 seconds.
+Registered in 0.006109 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image /Users/JADUCUT/Documents/GDA12Final/Squadron SpearPoint/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image /Users/JADUCUT/Documents/GDA12Final/Squadron SpearPoint/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.51 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.58 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.563 seconds
+- Completed reload, in  2.410 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2566ms)
-		BeginReloadAssembly (253ms)
+	ReloadAssembly (2414ms)
+		BeginReloadAssembly (255ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (41ms)
+			DisableScriptedObjects (33ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (38ms)
-		EndReloadAssembly (1992ms)
-			LoadAssemblies (141ms)
+			CreateAndSetChildDomain (40ms)
+		EndReloadAssembly (1859ms)
+			LoadAssemblies (138ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (372ms)
+			SetupTypeCache (385ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (64ms)
-			SetupLoadedEditorAssemblies (1231ms)
+			RebuildScriptCaches (66ms)
+			SetupLoadedEditorAssemblies (1114ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (15ms)
-				SetLoadedEditorAssemblies (2ms)
+				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (136ms)
-				ProcessInitializeOnLoadAttributes (954ms)
-				ProcessInitializeOnLoadMethodAttributes (122ms)
+				BeforeProcessingInitializeOnLoad (134ms)
+				ProcessInitializeOnLoadAttributes (852ms)
+				ProcessInitializeOnLoadMethodAttributes (109ms)
 				AfterProcessingInitializeOnLoad (1ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
@@ -146,13 +146,13 @@ Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launching external process: /Applications/Unity/Hub/Editor/2021.3.10f1/Unity.app/Contents/Tools/UnityShaderCompiler
-Launched and connected shader compiler UnityShaderCompiler after 0.07 seconds
-Refreshing native plugins compatible for Editor in 0.80 ms, found 2 plugins.
+Launched and connected shader compiler UnityShaderCompiler after 0.24 seconds
+Refreshing native plugins compatible for Editor in 0.61 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3382 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 27 unused Assets / (96.8 KB). Loaded Objects now: 3839.
-Memory consumption went from 234.2 MB to 234.1 MB.
-Total: 3.225166 ms (FindLiveObjects: 0.222583 ms CreateObjectMapping: 0.089291 ms MarkObjects: 2.760334 ms  DeleteObjects: 0.149875 ms)
+Unloading 3436 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 27 unused Assets / (96.9 KB). Loaded Objects now: 3893.
+Memory consumption went from 235.8 MB to 235.7 MB.
+Total: 3.539708 ms (FindLiveObjects: 0.341041 ms CreateObjectMapping: 0.103042 ms MarkObjects: 2.911500 ms  DeleteObjects: 0.182917 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -166,13 +166,299 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 2725.520086 seconds.
-  path: Assets/Pagoda Structure.prefab
-  artifactKey: Guid(0623cb9036f724a7e9d869b30fdff5b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pagoda Structure.prefab using Guid(0623cb9036f724a7e9d869b30fdff5b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95c04c662434fccb4b26eeeac972c4c6') in 0.436643 seconds 
+  Time since last request: 11282.943117 seconds.
+  path: Assets/Kawaii_Tanks_Project (Free)/Prefabs/Tank_Components
+  artifactKey: Guid(5f1768851b81a2d48aa613a62682cb40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kawaii_Tanks_Project (Free)/Prefabs/Tank_Components using Guid(5f1768851b81a2d48aa613a62682cb40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d30ee3aaccbf806cae3e0705b6aa9da') in 0.009775 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 4.251729 seconds.
-  path: Assets/Prefabs
-  artifactKey: Guid(83bb9c302647c4b33aab826681f892f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs using Guid(83bb9c302647c4b33aab826681f892f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e21623a1c346ccb56a2209a1875f343') in 0.002854 seconds 
+  Time since last request: 0.000091 seconds.
+  path: Assets/Kawaii_Tanks_Project (Free)/Prefabs/Tank_Components/Armor_Collider.prefab
+  artifactKey: Guid(ff89a4aa84fad3f48ae0de11153af052) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kawaii_Tanks_Project (Free)/Prefabs/Tank_Components/Armor_Collider.prefab using Guid(ff89a4aa84fad3f48ae0de11153af052) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45c83521631a989545fc93ed79554c79') in 0.703398 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000229 seconds.
+  path: Assets/Kawaii_Tanks_Project (Free)/Prefabs/SD_Tiger-I_2.0.prefab
+  artifactKey: Guid(37011bb60ee4c374a96651f3a67b4ade) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kawaii_Tanks_Project (Free)/Prefabs/SD_Tiger-I_2.0.prefab using Guid(37011bb60ee4c374a96651f3a67b4ade) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59a24c2ad25de7aca8b6a0519b585332') in 0.234038 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.189760 seconds.
+  path: Assets/Kawaii_Tanks_Project (Free)/Prefabs/Scene_Components/Camera_Manager.prefab
+  artifactKey: Guid(e002b9de4290e0a4ea8fc2d05296e266) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kawaii_Tanks_Project (Free)/Prefabs/Scene_Components/Camera_Manager.prefab using Guid(e002b9de4290e0a4ea8fc2d05296e266) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '287ab38248d8a46c73800e3079634742') in 0.010086 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000105 seconds.
+  path: Assets/Kawaii_Tanks_Project (Free)/Prefabs/Scene_Components/Touch_Controls.prefab
+  artifactKey: Guid(157ad9db6ee8b0247a33cc70bbd2459b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kawaii_Tanks_Project (Free)/Prefabs/Scene_Components/Touch_Controls.prefab using Guid(157ad9db6ee8b0247a33cc70bbd2459b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7521201f251a584f1dacf5b48083554') in 0.019791 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/Kawaii_Tanks_Project (Free)/Prefabs/Scene_Components/Touch_Controls (Tutorial).prefab
+  artifactKey: Guid(64063a319866afa4b94347e689fa4f27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kawaii_Tanks_Project (Free)/Prefabs/Scene_Components/Touch_Controls (Tutorial).prefab using Guid(64063a319866afa4b94347e689fa4f27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e16865e5f1d5defa91058c71ab688232') in 0.006863 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.666773 seconds.
+  path: Assets/Kawaii_Tanks_Project (Free)/Prefabs/Props/Hedge_A.prefab
+  artifactKey: Guid(433510086a5077949858fe701d425a48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kawaii_Tanks_Project (Free)/Prefabs/Props/Hedge_A.prefab using Guid(433510086a5077949858fe701d425a48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb52b00c3b5fcfb53c9853a9f0e45763') in 0.023488 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/Kawaii_Tanks_Project (Free)/Prefabs/Props/Hedge_Base_A.prefab
+  artifactKey: Guid(5db4026478ec4c44b88f4df0cf48b1ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kawaii_Tanks_Project (Free)/Prefabs/Props/Hedge_Base_A.prefab using Guid(5db4026478ec4c44b88f4df0cf48b1ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc23f8e6eeaed83746083fc07724c69a') in 0.011025 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/Kawaii_Tanks_Project (Free)/Prefabs/Props/Tree_B.prefab
+  artifactKey: Guid(1a82971c2f8f91644a2b65d8f1196fd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kawaii_Tanks_Project (Free)/Prefabs/Props/Tree_B.prefab using Guid(1a82971c2f8f91644a2b65d8f1196fd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '866813b05d8e7cf30ff0df5f09bc5f23') in 0.018912 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Kawaii_Tanks_Project (Free)/Prefabs/Props/Hedge_Base_B.prefab
+  artifactKey: Guid(7e73d4aea3aed3e4b8f57f1df5ba3ee8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kawaii_Tanks_Project (Free)/Prefabs/Props/Hedge_Base_B.prefab using Guid(7e73d4aea3aed3e4b8f57f1df5ba3ee8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1afe8bc14a51fd8564d3fcd971cadd1c') in 0.008655 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/Kawaii_Tanks_Project (Free)/Prefabs/Props/Tree_A.prefab
+  artifactKey: Guid(745496dd1e430494b82a6c1f7438d7c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kawaii_Tanks_Project (Free)/Prefabs/Props/Tree_A.prefab using Guid(745496dd1e430494b82a6c1f7438d7c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b907ac60a99ade0f8afe921c0063ab8d') in 0.009582 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.262013 seconds.
+  path: Assets/Kawaii_Tanks_Project (Free)/Prefabs/Ground_Tile/Grass_Tile.prefab
+  artifactKey: Guid(3d8ff0b073bc8664e93005a91c27d47a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kawaii_Tanks_Project (Free)/Prefabs/Ground_Tile/Grass_Tile.prefab using Guid(3d8ff0b073bc8664e93005a91c27d47a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9c09e60d5d49fcc393f185abdaef8ac') in 0.017378 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/Kawaii_Tanks_Project (Free)/Prefabs/Ground_Tile/Water_Tile_1x3.prefab
+  artifactKey: Guid(2ca467be9f0f6c84785f3c01c3494032) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kawaii_Tanks_Project (Free)/Prefabs/Ground_Tile/Water_Tile_1x3.prefab using Guid(2ca467be9f0f6c84785f3c01c3494032) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbcfd05af3c0cbb8e441b1f95c80ce53') in 0.011872 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000080 seconds.
+  path: Assets/Kawaii_Tanks_Project (Free)/Prefabs/Ground_Tile/Sand_Tile.prefab
+  artifactKey: Guid(7849a9be56e4c9b41943b77307ed52f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kawaii_Tanks_Project (Free)/Prefabs/Ground_Tile/Sand_Tile.prefab using Guid(7849a9be56e4c9b41943b77307ed52f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec4d390f4734577a0ed6610d9c99a679') in 0.015493 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.194586 seconds.
+  path: Assets/Kawaii_Tanks_Project (Free)/Editor
+  artifactKey: Guid(db28fb60f075abf4485a5cd8c68038f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kawaii_Tanks_Project (Free)/Editor using Guid(db28fb60f075abf4485a5cd8c68038f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad6bf75b2a7613a3e52fe6237134ef4c') in 0.001679 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.948209 seconds.
+  path: Assets/Kawaii_Tanks_Project (Free)/Meshes/SD_Tiger-I
+  artifactKey: Guid(094f51ea7a9bd9b4bb00d7ad5eb55dfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kawaii_Tanks_Project (Free)/Meshes/SD_Tiger-I using Guid(094f51ea7a9bd9b4bb00d7ad5eb55dfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77f6e28e461fa9b66c6854026824f859') in 0.001107 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.048407 seconds.
+  path: Assets/Kawaii_Tanks_Project (Free)/Meshes/SD_Tiger-I/SD_Tiger-I.fbx
+  artifactKey: Guid(9f8ff89320a2df2499316a13f2f7d8c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kawaii_Tanks_Project (Free)/Meshes/SD_Tiger-I/SD_Tiger-I.fbx using Guid(9f8ff89320a2df2499316a13f2f7d8c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa69203d245c6528533eaa82724524f1') in 0.656025 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.364543 seconds.
+  path: Assets/Kawaii_Tanks_Project (Free)/Others/For_Collider.mat
+  artifactKey: Guid(9fb853b2517b9a04fbb01fc0fc52c47f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kawaii_Tanks_Project (Free)/Others/For_Collider.mat using Guid(9fb853b2517b9a04fbb01fc0fc52c47f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24a94f3ba9caa0e9c7633dc38bc9228a') in 0.156301 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/Kawaii_Tanks_Project (Free)/Others/Particle_Trail.mat
+  artifactKey: Guid(16f30964ac964104690babd68f3268f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kawaii_Tanks_Project (Free)/Others/Particle_Trail.mat using Guid(16f30964ac964104690babd68f3268f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2d5a63ec646453f8d4129f3293670e0') in 0.076191 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Kawaii_Tanks_Project (Free)/Others/PhysicMat_Wheels.physicMaterial
+  artifactKey: Guid(5b37615f506c24f44ac1bb72ce66298f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kawaii_Tanks_Project (Free)/Others/PhysicMat_Wheels.physicMaterial using Guid(5b37615f506c24f44ac1bb72ce66298f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd02b1248cfa6815c6fb67ecf021ec95e') in 0.068576 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000085 seconds.
+  path: Assets/Kawaii_Tanks_Project (Free)/Others/PhysicMat_Zero.physicMaterial
+  artifactKey: Guid(7a801115a1fe42a4082e170a6cab8c86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kawaii_Tanks_Project (Free)/Others/PhysicMat_Zero.physicMaterial using Guid(7a801115a1fe42a4082e170a6cab8c86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0931e9d8f2c1c07b76a1d7ca893c2000') in 0.001679 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000102 seconds.
+  path: Assets/Kawaii_Tanks_Project (Free)/Others/Particle_Smoke.mat
+  artifactKey: Guid(e1c8fa91619d4e84494ded335096d2f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kawaii_Tanks_Project (Free)/Others/Particle_Smoke.mat using Guid(e1c8fa91619d4e84494ded335096d2f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42172304ba56045cc64ca0fbf5b4ec84') in 0.096226 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/Kawaii_Tanks_Project (Free)/Others/Smoke_01.png
+  artifactKey: Guid(ebc6568856c7bfc46a6c3ee082bbd2d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kawaii_Tanks_Project (Free)/Others/Smoke_01.png using Guid(ebc6568856c7bfc46a6c3ee082bbd2d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50d435a7f9847176ae9c35d12b297e7e') in 0.665728 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000090 seconds.
+  path: Assets/Kawaii_Tanks_Project (Free)/Others/Particle_Spark.mat
+  artifactKey: Guid(f529bbdd552f1284f8bb0ea9b48d22bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kawaii_Tanks_Project (Free)/Others/Particle_Spark.mat using Guid(f529bbdd552f1284f8bb0ea9b48d22bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9e3f6516f2e0224faf5f7e842a2d42a') in 0.009444 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000132 seconds.
+  path: Assets/Kawaii_Tanks_Project (Free)/Others/SE_Engine.ogg
+  artifactKey: Guid(152276e7f391445468f04b1f6cfd5829) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kawaii_Tanks_Project (Free)/Others/SE_Engine.ogg using Guid(152276e7f391445468f04b1f6cfd5829) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4fdc8bd91ffd1efcebefcc443125b4f9') in 0.126136 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.835620 seconds.
+  path: Assets/Kawaii_Tanks_Project (Free)/Meshes/SD_Firefly/SD_Firefly.fbx
+  artifactKey: Guid(fd83e6cb9fb13014fbdfae82bc65d764) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kawaii_Tanks_Project (Free)/Meshes/SD_Firefly/SD_Firefly.fbx using Guid(fd83e6cb9fb13014fbdfae82bc65d764) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4f39b8f80d4ff74a67e070e993bf520') in 0.289789 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.504610 seconds.
+  path: Assets/Kawaii_Tanks_Project (Free)/Meshes/SD_Firefly/Materials/SD_Firefly_Base.mat
+  artifactKey: Guid(cc68021fd94f98d40bf79c71a87ad3fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kawaii_Tanks_Project (Free)/Meshes/SD_Firefly/Materials/SD_Firefly_Base.mat using Guid(cc68021fd94f98d40bf79c71a87ad3fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24b1d15a5e0dc1c30691b25ee17cbdcd') in 0.015222 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000085 seconds.
+  path: Assets/Kawaii_Tanks_Project (Free)/Meshes/SD_Firefly/Materials/SD_Firefly_Wheel_AO.png
+  artifactKey: Guid(e91619f7851575f4bb98d9f9d6550d1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kawaii_Tanks_Project (Free)/Meshes/SD_Firefly/Materials/SD_Firefly_Wheel_AO.png using Guid(e91619f7851575f4bb98d9f9d6550d1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e81cc80303440a262cf3858cf6c489f') in 0.012799 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000080 seconds.
+  path: Assets/Kawaii_Tanks_Project (Free)/Meshes/SD_Firefly/Materials/SD_Firefly_Base_AO.png
+  artifactKey: Guid(faa1805ffa064674a9f6b14e92a74d15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kawaii_Tanks_Project (Free)/Meshes/SD_Firefly/Materials/SD_Firefly_Base_AO.png using Guid(faa1805ffa064674a9f6b14e92a74d15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2cd0a4ecc09a238f893f9f65b47896a8') in 0.009806 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/Kawaii_Tanks_Project (Free)/Meshes/SD_Firefly/Materials/SD_Firefly_TrackBelt_Bump.png
+  artifactKey: Guid(0e0ff85c937a3c349b39e5c1d9bfadc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kawaii_Tanks_Project (Free)/Meshes/SD_Firefly/Materials/SD_Firefly_TrackBelt_Bump.png using Guid(0e0ff85c937a3c349b39e5c1d9bfadc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '533c83080c6fb7fdb8727a634484662c') in 0.043682 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 192.103447 seconds.
+  path: Assets/Scripts/Copy_Barrage.cs
+  artifactKey: Guid(5cce397a6678e4839a7e2adbaa81724c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Copy_Barrage.cs using Guid(5cce397a6678e4839a7e2adbaa81724c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e23c45bb5f5434d7cc5b6ddf53414a2b') in 0.151535 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001843 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/JADUCUT/Documents/GDA12Final/Squadron SpearPoint/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/JADUCUT/Documents/GDA12Final/Squadron SpearPoint/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.59 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.405 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2407ms)
+		BeginReloadAssembly (341ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (30ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (123ms)
+		EndReloadAssembly (1823ms)
+			LoadAssemblies (142ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (396ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (49ms)
+			SetupLoadedEditorAssemblies (1090ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (32ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (106ms)
+				ProcessInitializeOnLoadAttributes (827ms)
+				ProcessInitializeOnLoadMethodAttributes (122ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (12ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.27 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3432 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (73.4 KB). Loaded Objects now: 3962.
+Memory consumption went from 271.2 MB to 271.1 MB.
+Total: 2.874209 ms (FindLiveObjects: 0.219459 ms CreateObjectMapping: 0.143709 ms MarkObjects: 2.367709 ms  DeleteObjects: 0.142500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002284 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/JADUCUT/Documents/GDA12Final/Squadron SpearPoint/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/JADUCUT/Documents/GDA12Final/Squadron SpearPoint/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.57 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.367 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2369ms)
+		BeginReloadAssembly (319ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (35ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (99ms)
+		EndReloadAssembly (1804ms)
+			LoadAssemblies (123ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (381ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (48ms)
+			SetupLoadedEditorAssemblies (1091ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (34ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (111ms)
+				ProcessInitializeOnLoadAttributes (832ms)
+				ProcessInitializeOnLoadMethodAttributes (110ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.50 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3433 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 20 unused Assets / (72.7 KB). Loaded Objects now: 3966.
+Memory consumption went from 271.4 MB to 271.3 MB.
+Total: 2.780959 ms (FindLiveObjects: 0.188084 ms CreateObjectMapping: 0.077834 ms MarkObjects: 2.402625 ms  DeleteObjects: 0.111375 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
