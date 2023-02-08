@@ -406,8 +406,7 @@
 "Assets/Kawaii_Tanks_Project (Free)/Scripts/Wheel_Sync_CS.cs"
 "Assets/Scripts/Copy_Barrage.cs"
 "Assets/Scripts/Copy_Tankcontroller.cs"
-"Assets/Scripts/Possible_BarrageScript.cs"
-"Assets/Scripts/Tank_MovementV1.cs"
+"Assets/Scripts/FollowPlayer.cs"
 -langversion:9.0
 
 /deterministic
