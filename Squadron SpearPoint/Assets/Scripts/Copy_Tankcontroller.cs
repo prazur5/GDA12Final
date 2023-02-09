@@ -24,17 +24,26 @@ public class Copy_Tankcontroller : MonoBehaviour
         turretTransform.rotation *= Quaternion.AngleAxis(turnTurretX * turnSpeed * Time.deltaTime, Vector3.up);
         cannonTransform.rotation *= Quaternion.AngleAxis(-turnTurretY * turnSpeed * Time.deltaTime, Vector3.right);
 
-        if (Input.GetButton("Fire1"))
+        if (Input.GetKeyDown(KeyCode.Space))
         {
-            fireTimer += Time.deltaTime;
-            if (fireTimer >= fireRate)
-            {
-                fireTimer = 0f;
-                GameObject bullet = Instantiate(bulletPrefab, cannonTransform.position, cannonTransform.rotation);
-                bullet.GetComponent<Rigidbody>().AddForce(cannonTransform.forward * 1000f);
-            }
+
+            //Delete the lines that are currently 31 and 32 if you run into issues and get rid of the double slashes to revert back to the code Chatgpt gave
+            GameObject bullet = Instantiate(bulletPrefab, cannonTransform.position, cannonTransform.rotation);
+            bullet.GetComponent<Rigidbody>().AddForce(cannonTransform.forward * 1000f);
+            //fireTimer += Time.deltaTime;
+            //if (fireTimer >= fireRate)
+            //{
+            //    fireTimer = 4f;
+            //    GameObject bullet = Instantiate(bulletPrefab, cannonTransform.position, cannonTransform.rotation);
+            //    bullet.GetComponent<Rigidbody>().AddForce(cannonTransform.forward * 1000f);
+            //}
         }
     }
+
+
+
+
+    
 }
 
 //Chatgpt tank code example!
