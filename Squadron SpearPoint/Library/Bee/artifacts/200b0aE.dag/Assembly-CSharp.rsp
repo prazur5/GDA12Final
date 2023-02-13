@@ -405,9 +405,11 @@
 "Assets/Kawaii_Tanks_Project (Free)/Scripts/Wheel_Rotate_CS.cs"
 "Assets/Kawaii_Tanks_Project (Free)/Scripts/Wheel_Sync_CS.cs"
 "Assets/Scripts/Bulletshoot.cs"
+"Assets/Scripts/CannonScript.cs"
 "Assets/Scripts/Copy_Barrage.cs"
 "Assets/Scripts/Copy_Tankcontroller.cs"
 "Assets/Scripts/FollowPlayer.cs"
+"Assets/Scripts/Test_cont.cs"
 -langversion:9.0
 
 /deterministic
