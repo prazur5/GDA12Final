@@ -39,6 +39,7 @@ namespace ChobiAssets.KTP
 
         IEnumerator Generate_Bullet()
         {
+
             // Instantiate the muzzle fire prefab.
             if (firePrefab)
             {
