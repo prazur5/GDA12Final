@@ -1,7 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.InputSystem;
 
 public class TankController : MonoBehaviour
 {
@@ -29,15 +28,6 @@ public class TankController : MonoBehaviour
         float turn = turnInput * turnSpeed * Time.deltaTime;
         Quaternion turnRotation = Quaternion.Euler(0f, turn, 0f);
         tankRigidbody.MoveRotation(tankRigidbody.rotation * turnRotation);
-    }
-
-    public void OnMove(InputValue value)
-    {
-        moveInput = value.Get<Vector2>();
-    }
-
-    public void OnTurn(InputValue value)
-    {
-        turnInput = value.Get<float>();
+    
     }
 }

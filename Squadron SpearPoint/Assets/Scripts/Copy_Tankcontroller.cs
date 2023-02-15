@@ -19,8 +19,8 @@ public class Copy_Tankcontroller : MonoBehaviour
         transform.position += transform.forward * moveZ * moveSpeed * Time.deltaTime;
         transform.rotation *= Quaternion.AngleAxis(moveX * turnSpeed * Time.deltaTime, Vector3.up);
 
-        float turnTurretX = Input.GetAxis("TurretHorizontal");
-        float turnTurretY = Input.GetAxis("TurretVertical");
+        float turnTurretX = Input.GetAxis("Horizontal");
+        float turnTurretY = Input.GetAxis("Vertical");
         turretTransform.rotation *= Quaternion.AngleAxis(turnTurretX * turnSpeed * Time.deltaTime, Vector3.up);
         cannonTransform.rotation *= Quaternion.AngleAxis(-turnTurretY * turnSpeed * Time.deltaTime, Vector3.right);
 
