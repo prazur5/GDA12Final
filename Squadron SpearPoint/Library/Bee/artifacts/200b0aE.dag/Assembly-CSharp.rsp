@@ -410,6 +410,7 @@
 "Assets/Scripts/Copy_Tankcontroller.cs"
 "Assets/Scripts/FollowPlayer.cs"
 "Assets/Scripts/Input_Turning.cs"
+"Assets/Scripts/NewBullet.cs"
 "Assets/Scripts/OG_Controller.cs"
 "Assets/Scripts/Test_cont.cs"
 -langversion:9.0
