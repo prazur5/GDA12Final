@@ -21,8 +21,8 @@ public class Main_Tankcontroller : MonoBehaviour
 
         float turnTurretX = Input.GetAxis("Horizontal");
         float turnTurretY = Input.GetAxis("Vertical");
-        turretTransform.rotation *= Quaternion.AngleAxis(turnTurretX * turnSpeed * Time.deltaTime, Vector3.up);
-        cannonTransform.rotation *= Quaternion.AngleAxis(-turnTurretY * turnSpeed * Time.deltaTime, Vector3.right);
+        //turretTransform.rotation *= Quaternion.AngleAxis(turnTurretX * turnSpeed * Time.deltaTime, Vector3.up);
+        //cannonTransform.rotation *= Quaternion.AngleAxis(-turnTurretY * turnSpeed * Time.deltaTime, Vector3.right);
 
         if (Input.GetKeyDown(KeyCode.Space))
         {
