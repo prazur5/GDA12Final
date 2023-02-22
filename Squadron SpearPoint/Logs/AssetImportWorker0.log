@@ -22,7 +22,7 @@ AssetImportWorker0
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-50117
+50480
 Successfully changed project path to: /Users/JADUCUT/Documents/GDA12Final/Squadron SpearPoint
 Could not lock editor preferences. Preferences updates for this instance of Unity will not be saved./Users/JADUCUT/Documents/GDA12Final/Squadron SpearPoint
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -54,7 +54,7 @@ Could not lock editor preferences. Preferences updates for this instance of Unit
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 101.34 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 98.10 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.10f1 (1c7d0df0160b)
 [Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2021.3.10f1/Unity.app/Contents/Resources/UnitySubsystems
@@ -69,75 +69,75 @@ Initialize mono
 Mono path[0] = '/Applications/Unity/Hub/Editor/2021.3.10f1/Unity.app/Contents/Managed'
 Mono path[1] = '/Applications/Unity/Hub/Editor/2021.3.10f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
 Mono config path = '/Applications/Unity/Hub/Editor/2021.3.10f1/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56898
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56436
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /Applications/Unity/Hub/Editor/2021.3.10f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
-Registered in 0.000519 seconds.
+Registered in 0.001064 seconds.
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 96.76 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 100.31 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.368 seconds
+- Completed reload, in  1.430 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1369ms)
-		BeginReloadAssembly (147ms)
+	ReloadAssembly (1431ms)
+		BeginReloadAssembly (149ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (2ms)
-		EndReloadAssembly (999ms)
-			LoadAssemblies (144ms)
+			CreateAndSetChildDomain (3ms)
+		EndReloadAssembly (1060ms)
+			LoadAssemblies (147ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (147ms)
+			SetupTypeCache (148ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (34ms)
-			SetupLoadedEditorAssemblies (679ms)
+			RebuildScriptCaches (35ms)
+			SetupLoadedEditorAssemblies (727ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (17ms)
+				InitializePlatformSupportModulesInManaged (18ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (97ms)
-				BeforeProcessingInitializeOnLoad (3ms)
-				ProcessInitializeOnLoadAttributes (423ms)
-				ProcessInitializeOnLoadMethodAttributes (139ms)
+				RefreshPlugins (100ms)
+				BeforeProcessingInitializeOnLoad (4ms)
+				ProcessInitializeOnLoadAttributes (460ms)
+				ProcessInitializeOnLoadMethodAttributes (144ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.002705 seconds.
+Registered in 0.002884 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image /Users/JADUCUT/Documents/GDA12Final/Squadron SpearPoint/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image /Users/JADUCUT/Documents/GDA12Final/Squadron SpearPoint/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.49 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.63 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.217 seconds
+- Completed reload, in  2.359 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2219ms)
-		BeginReloadAssembly (212ms)
+	ReloadAssembly (2361ms)
+		BeginReloadAssembly (237ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (31ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (38ms)
-		EndReloadAssembly (1724ms)
-			LoadAssemblies (108ms)
+			CreateAndSetChildDomain (45ms)
+		EndReloadAssembly (1823ms)
+			LoadAssemblies (144ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (371ms)
+			SetupTypeCache (374ms)
 			ReleaseScriptCaches (1ms)
 			RebuildScriptCaches (65ms)
-			SetupLoadedEditorAssemblies (1031ms)
+			SetupLoadedEditorAssemblies (1089ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (14ms)
-				SetLoadedEditorAssemblies (1ms)
+				InitializePlatformSupportModulesInManaged (13ms)
+				SetLoadedEditorAssemblies (2ms)
 				RefreshPlugins (1ms)
 				BeforeProcessingInitializeOnLoad (128ms)
-				ProcessInitializeOnLoadAttributes (784ms)
-				ProcessInitializeOnLoadMethodAttributes (103ms)
+				ProcessInitializeOnLoadAttributes (829ms)
+				ProcessInitializeOnLoadMethodAttributes (116ms)
 				AfterProcessingInitializeOnLoad (1ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
@@ -147,12 +147,12 @@ Platform modules already initialized, skipping
 Worker process is ready to serve import requests
 Launching external process: /Applications/Unity/Hub/Editor/2021.3.10f1/Unity.app/Contents/Tools/UnityShaderCompiler
 Launched and connected shader compiler UnityShaderCompiler after 0.08 seconds
-Refreshing native plugins compatible for Editor in 0.65 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.55 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3444 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 27 unused Assets / (97.4 KB). Loaded Objects now: 3907.
-Memory consumption went from 237.4 MB to 237.3 MB.
-Total: 2.983125 ms (FindLiveObjects: 0.217292 ms CreateObjectMapping: 0.080875 ms MarkObjects: 2.560958 ms  DeleteObjects: 0.122542 ms)
+Memory consumption went from 237.3 MB to 237.2 MB.
+Total: 2.945583 ms (FindLiveObjects: 0.207500 ms CreateObjectMapping: 0.081792 ms MarkObjects: 2.518833 ms  DeleteObjects: 0.136625 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -166,629 +166,254 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 3060.014652 seconds.
-  path: Assets/SpawnBPre.cs
-  artifactKey: Guid(2fb4021d51dd44e2cbf7fc7926f6a6bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SpawnBPre.cs using Guid(2fb4021d51dd44e2cbf7fc7926f6a6bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f25c4cc251a48384d4ab33c70c6cbac7') in 0.127504 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001894 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image /Users/JADUCUT/Documents/GDA12Final/Squadron SpearPoint/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image /Users/JADUCUT/Documents/GDA12Final/Squadron SpearPoint/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.59 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.182 seconds
-Domain Reload Profiling:
-	ReloadAssembly (2183ms)
-		BeginReloadAssembly (286ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (30ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (96ms)
-		EndReloadAssembly (1662ms)
-			LoadAssemblies (113ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (384ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (49ms)
-			SetupLoadedEditorAssemblies (959ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (31ms)
-				SetLoadedEditorAssemblies (2ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (103ms)
-				ProcessInitializeOnLoadAttributes (721ms)
-				ProcessInitializeOnLoadMethodAttributes (101ms)
-				AfterProcessingInitializeOnLoad (1ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (11ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 2.02 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3439 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 20 unused Assets / (72.9 KB). Loaded Objects now: 3910.
-Memory consumption went from 241.4 MB to 241.3 MB.
-Total: 3.213917 ms (FindLiveObjects: 0.284709 ms CreateObjectMapping: 0.084666 ms MarkObjects: 2.680625 ms  DeleteObjects: 0.161875 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002049 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image /Users/JADUCUT/Documents/GDA12Final/Squadron SpearPoint/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image /Users/JADUCUT/Documents/GDA12Final/Squadron SpearPoint/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.58 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.169 seconds
-Domain Reload Profiling:
-	ReloadAssembly (2171ms)
-		BeginReloadAssembly (243ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (30ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (78ms)
-		EndReloadAssembly (1663ms)
-			LoadAssemblies (91ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (373ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (47ms)
-			SetupLoadedEditorAssemblies (989ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (30ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (103ms)
-				ProcessInitializeOnLoadAttributes (745ms)
-				ProcessInitializeOnLoadMethodAttributes (108ms)
-				AfterProcessingInitializeOnLoad (1ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (12ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.88 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3439 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 20 unused Assets / (73.0 KB). Loaded Objects now: 3913.
-Memory consumption went from 241.6 MB to 241.5 MB.
-Total: 2.924792 ms (FindLiveObjects: 0.249250 ms CreateObjectMapping: 0.075375 ms MarkObjects: 2.503542 ms  DeleteObjects: 0.094959 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001816 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image /Users/JADUCUT/Documents/GDA12Final/Squadron SpearPoint/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image /Users/JADUCUT/Documents/GDA12Final/Squadron SpearPoint/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.79 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.244 seconds
-Domain Reload Profiling:
-	ReloadAssembly (2246ms)
-		BeginReloadAssembly (249ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (34ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (75ms)
-		EndReloadAssembly (1758ms)
-			LoadAssemblies (97ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (371ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (48ms)
-			SetupLoadedEditorAssemblies (1063ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (35ms)
-				SetLoadedEditorAssemblies (2ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (103ms)
-				ProcessInitializeOnLoadAttributes (798ms)
-				ProcessInitializeOnLoadMethodAttributes (122ms)
-				AfterProcessingInitializeOnLoad (1ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (13ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.80 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3439 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 20 unused Assets / (73.1 KB). Loaded Objects now: 3916.
-Memory consumption went from 241.8 MB to 241.7 MB.
-Total: 3.282500 ms (FindLiveObjects: 0.273292 ms CreateObjectMapping: 0.108833 ms MarkObjects: 2.788500 ms  DeleteObjects: 0.110500 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002149 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image /Users/JADUCUT/Documents/GDA12Final/Squadron SpearPoint/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image /Users/JADUCUT/Documents/GDA12Final/Squadron SpearPoint/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.75 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.247 seconds
-Domain Reload Profiling:
-	ReloadAssembly (2249ms)
-		BeginReloadAssembly (249ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (32ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (77ms)
-		EndReloadAssembly (1766ms)
-			LoadAssemblies (95ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (372ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (48ms)
-			SetupLoadedEditorAssemblies (1049ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (33ms)
-				SetLoadedEditorAssemblies (2ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (106ms)
-				ProcessInitializeOnLoadAttributes (784ms)
-				ProcessInitializeOnLoadMethodAttributes (121ms)
-				AfterProcessingInitializeOnLoad (1ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (12ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.59 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3439 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 20 unused Assets / (72.9 KB). Loaded Objects now: 3919.
-Memory consumption went from 242.0 MB to 241.9 MB.
-Total: 3.021458 ms (FindLiveObjects: 0.313083 ms CreateObjectMapping: 0.082083 ms MarkObjects: 2.530791 ms  DeleteObjects: 0.094208 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001928 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image /Users/JADUCUT/Documents/GDA12Final/Squadron SpearPoint/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image /Users/JADUCUT/Documents/GDA12Final/Squadron SpearPoint/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.58 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.302 seconds
-Domain Reload Profiling:
-	ReloadAssembly (2304ms)
-		BeginReloadAssembly (320ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (35ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (114ms)
-		EndReloadAssembly (1743ms)
-			LoadAssemblies (126ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (394ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (48ms)
-			SetupLoadedEditorAssemblies (1011ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (33ms)
-				SetLoadedEditorAssemblies (2ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (102ms)
-				ProcessInitializeOnLoadAttributes (763ms)
-				ProcessInitializeOnLoadMethodAttributes (110ms)
-				AfterProcessingInitializeOnLoad (1ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (13ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.90 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3439 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 20 unused Assets / (72.9 KB). Loaded Objects now: 3922.
-Memory consumption went from 242.2 MB to 242.1 MB.
-Total: 2.864667 ms (FindLiveObjects: 0.236792 ms CreateObjectMapping: 0.078167 ms MarkObjects: 2.444334 ms  DeleteObjects: 0.104417 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001940 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image /Users/JADUCUT/Documents/GDA12Final/Squadron SpearPoint/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image /Users/JADUCUT/Documents/GDA12Final/Squadron SpearPoint/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.59 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.295 seconds
-Domain Reload Profiling:
-	ReloadAssembly (2297ms)
-		BeginReloadAssembly (319ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (34ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (123ms)
-		EndReloadAssembly (1731ms)
-			LoadAssemblies (111ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (394ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (48ms)
-			SetupLoadedEditorAssemblies (1026ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (31ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (115ms)
-				ProcessInitializeOnLoadAttributes (776ms)
-				ProcessInitializeOnLoadMethodAttributes (101ms)
-				AfterProcessingInitializeOnLoad (1ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (11ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.15 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3439 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 20 unused Assets / (73.2 KB). Loaded Objects now: 3925.
-Memory consumption went from 242.4 MB to 242.3 MB.
-Total: 2.841958 ms (FindLiveObjects: 0.225000 ms CreateObjectMapping: 0.083250 ms MarkObjects: 2.431167 ms  DeleteObjects: 0.101458 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002130 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image /Users/JADUCUT/Documents/GDA12Final/Squadron SpearPoint/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image /Users/JADUCUT/Documents/GDA12Final/Squadron SpearPoint/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.59 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.221 seconds
-Domain Reload Profiling:
-	ReloadAssembly (2223ms)
-		BeginReloadAssembly (260ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (39ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (78ms)
-		EndReloadAssembly (1725ms)
-			LoadAssemblies (99ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (375ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (48ms)
-			SetupLoadedEditorAssemblies (1046ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (31ms)
-				SetLoadedEditorAssemblies (2ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (103ms)
-				ProcessInitializeOnLoadAttributes (805ms)
-				ProcessInitializeOnLoadMethodAttributes (104ms)
-				AfterProcessingInitializeOnLoad (1ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (11ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.84 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3439 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 20 unused Assets / (73.1 KB). Loaded Objects now: 3928.
-Memory consumption went from 242.6 MB to 242.5 MB.
-Total: 3.263125 ms (FindLiveObjects: 0.273167 ms CreateObjectMapping: 0.096500 ms MarkObjects: 2.748709 ms  DeleteObjects: 0.143459 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  Time since last request: 7120.097236 seconds.
+  path: Assets/Prefabs/Pagoda Structure Revised.prefab
+  artifactKey: Guid(6836b4ef71f2e47b0b31e22bc8b13b7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Pagoda Structure Revised.prefab using Guid(6836b4ef71f2e47b0b31e22bc8b13b7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '073d8b12f13100e74c98dae9af89b95d') in 0.447702 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 731.768645 seconds.
-  path: Assets/Kawaii_Tanks_Project (Free)/Prefabs/Bullet_and_Effects/Bullet.prefab
-  artifactKey: Guid(b0524b2af2a10754aa6797e704fa9541) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Kawaii_Tanks_Project (Free)/Prefabs/Bullet_and_Effects/Bullet.prefab using Guid(b0524b2af2a10754aa6797e704fa9541) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64bf173cd0c76c3c53421436daab2368') in 0.327371 seconds 
+  Time since last request: 6.756193 seconds.
+  path: Assets/Prefabs/Pagoda Structure Revised.prefab
+  artifactKey: Guid(6836b4ef71f2e47b0b31e22bc8b13b7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Pagoda Structure Revised.prefab using Guid(6836b4ef71f2e47b0b31e22bc8b13b7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00e4bf7ff48d9759274e7425c9a6e811') in 0.014524 seconds 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002243 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image /Users/JADUCUT/Documents/GDA12Final/Squadron SpearPoint/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image /Users/JADUCUT/Documents/GDA12Final/Squadron SpearPoint/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.80 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.223 seconds
-Domain Reload Profiling:
-	ReloadAssembly (2225ms)
-		BeginReloadAssembly (268ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (29ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (85ms)
-		EndReloadAssembly (1716ms)
-			LoadAssemblies (112ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (391ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (48ms)
-			SetupLoadedEditorAssemblies (1005ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (34ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (108ms)
-				ProcessInitializeOnLoadAttributes (752ms)
-				ProcessInitializeOnLoadMethodAttributes (107ms)
-				AfterProcessingInitializeOnLoad (1ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (12ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.94 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3439 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 21 unused Assets / (72.7 KB). Loaded Objects now: 3939.
-Memory consumption went from 251.9 MB to 251.8 MB.
-Total: 3.763375 ms (FindLiveObjects: 0.317458 ms CreateObjectMapping: 0.096875 ms MarkObjects: 3.214000 ms  DeleteObjects: 0.133625 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Received Import Request.
+  Time since last request: 50.875313 seconds.
+  path: Assets/Prefabs/Pagoda Structure Revised.prefab
+  artifactKey: Guid(6836b4ef71f2e47b0b31e22bc8b13b7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Pagoda Structure Revised.prefab using Guid(6836b4ef71f2e47b0b31e22bc8b13b7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a06d16a07f3f974fb4ba394f93cce17b') in 0.008786 seconds 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003595 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image /Users/JADUCUT/Documents/GDA12Final/Squadron SpearPoint/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image /Users/JADUCUT/Documents/GDA12Final/Squadron SpearPoint/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.58 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.304 seconds
-Domain Reload Profiling:
-	ReloadAssembly (2306ms)
-		BeginReloadAssembly (314ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (33ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (112ms)
-		EndReloadAssembly (1746ms)
-			LoadAssemblies (113ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (386ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (48ms)
-			SetupLoadedEditorAssemblies (1034ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (31ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (106ms)
-				ProcessInitializeOnLoadAttributes (785ms)
-				ProcessInitializeOnLoadMethodAttributes (109ms)
-				AfterProcessingInitializeOnLoad (1ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (10ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.17 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3439 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 20 unused Assets / (72.6 KB). Loaded Objects now: 3942.
-Memory consumption went from 251.9 MB to 251.8 MB.
-Total: 2.923792 ms (FindLiveObjects: 0.245416 ms CreateObjectMapping: 0.080625 ms MarkObjects: 2.512958 ms  DeleteObjects: 0.083709 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Received Import Request.
+  Time since last request: 17.015905 seconds.
+  path: Assets/Prefabs/Pagoda Structure Revised.prefab
+  artifactKey: Guid(6836b4ef71f2e47b0b31e22bc8b13b7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Pagoda Structure Revised.prefab using Guid(6836b4ef71f2e47b0b31e22bc8b13b7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c7059f7fd211ef0d091a770a762044a') in 0.010326 seconds 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001998 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image /Users/JADUCUT/Documents/GDA12Final/Squadron SpearPoint/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image /Users/JADUCUT/Documents/GDA12Final/Squadron SpearPoint/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.59 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.192 seconds
-Domain Reload Profiling:
-	ReloadAssembly (2193ms)
-		BeginReloadAssembly (259ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (34ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (76ms)
-		EndReloadAssembly (1698ms)
-			LoadAssemblies (102ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (376ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (49ms)
-			SetupLoadedEditorAssemblies (1019ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (31ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (103ms)
-				ProcessInitializeOnLoadAttributes (781ms)
-				ProcessInitializeOnLoadMethodAttributes (102ms)
-				AfterProcessingInitializeOnLoad (1ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (10ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.02 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3439 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 20 unused Assets / (72.7 KB). Loaded Objects now: 3945.
-Memory consumption went from 252.1 MB to 252.0 MB.
-Total: 2.540583 ms (FindLiveObjects: 0.195667 ms CreateObjectMapping: 0.075166 ms MarkObjects: 2.193042 ms  DeleteObjects: 0.075625 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Received Import Request.
+  Time since last request: 8.642200 seconds.
+  path: Assets/Prefabs/Pagoda Structure Revised.prefab
+  artifactKey: Guid(6836b4ef71f2e47b0b31e22bc8b13b7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Pagoda Structure Revised.prefab using Guid(6836b4ef71f2e47b0b31e22bc8b13b7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49115913d0d9873bc08ded4a203b1d84') in 0.008824 seconds 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001804 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image /Users/JADUCUT/Documents/GDA12Final/Squadron SpearPoint/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image /Users/JADUCUT/Documents/GDA12Final/Squadron SpearPoint/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.60 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.287 seconds
-Domain Reload Profiling:
-	ReloadAssembly (2289ms)
-		BeginReloadAssembly (318ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (34ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (117ms)
-		EndReloadAssembly (1731ms)
-			LoadAssemblies (107ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (390ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (48ms)
-			SetupLoadedEditorAssemblies (1023ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (32ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (101ms)
-				ProcessInitializeOnLoadAttributes (776ms)
-				ProcessInitializeOnLoadMethodAttributes (111ms)
-				AfterProcessingInitializeOnLoad (1ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (11ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.56 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3439 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 20 unused Assets / (72.6 KB). Loaded Objects now: 3948.
-Memory consumption went from 252.3 MB to 252.2 MB.
-Total: 2.855083 ms (FindLiveObjects: 0.212583 ms CreateObjectMapping: 0.083667 ms MarkObjects: 2.426875 ms  DeleteObjects: 0.130875 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Received Import Request.
+  Time since last request: 2.785110 seconds.
+  path: Assets/Prefabs/Pagoda Structure Revised.prefab
+  artifactKey: Guid(6836b4ef71f2e47b0b31e22bc8b13b7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Pagoda Structure Revised.prefab using Guid(6836b4ef71f2e47b0b31e22bc8b13b7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12c1c85b90ce92814ffcda00bf6bcf9e') in 0.008696 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.633133 seconds.
+  path: Assets/Prefabs/Pagoda Structure Revised.prefab
+  artifactKey: Guid(6836b4ef71f2e47b0b31e22bc8b13b7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Pagoda Structure Revised.prefab using Guid(6836b4ef71f2e47b0b31e22bc8b13b7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f2b2b91866f5dd5ed5658be87ff33c1') in 0.008440 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.082949 seconds.
+  path: Assets/Prefabs/Pagoda Structure Revised.prefab
+  artifactKey: Guid(6836b4ef71f2e47b0b31e22bc8b13b7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Pagoda Structure Revised.prefab using Guid(6836b4ef71f2e47b0b31e22bc8b13b7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b0d4759c2cf6400369bfcff5274bc35') in 0.008063 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.624842 seconds.
+  path: Assets/Prefabs/Pagoda Structure Revised.prefab
+  artifactKey: Guid(6836b4ef71f2e47b0b31e22bc8b13b7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Pagoda Structure Revised.prefab using Guid(6836b4ef71f2e47b0b31e22bc8b13b7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21b93e7ba388e7191fde5250dc8c5e25') in 0.007609 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 16.980739 seconds.
+  path: Assets/Prefabs/Pagoda Structure Revised.prefab
+  artifactKey: Guid(6836b4ef71f2e47b0b31e22bc8b13b7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Pagoda Structure Revised.prefab using Guid(6836b4ef71f2e47b0b31e22bc8b13b7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fcec8c893e1be7c8bd388c5e555e9489') in 0.008289 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.223477 seconds.
+  path: Assets/Prefabs/Pagoda Structure Revised.prefab
+  artifactKey: Guid(6836b4ef71f2e47b0b31e22bc8b13b7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Pagoda Structure Revised.prefab using Guid(6836b4ef71f2e47b0b31e22bc8b13b7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0fb6fa9d535b876b817534778b88bfe8') in 0.008579 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.296989 seconds.
+  path: Assets/Prefabs/Pagoda Structure Revised.prefab
+  artifactKey: Guid(6836b4ef71f2e47b0b31e22bc8b13b7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Pagoda Structure Revised.prefab using Guid(6836b4ef71f2e47b0b31e22bc8b13b7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '155d8a99c2a1eafb8560710f92296241') in 0.007877 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.281250 seconds.
+  path: Assets/Prefabs/Pagoda Structure Revised.prefab
+  artifactKey: Guid(6836b4ef71f2e47b0b31e22bc8b13b7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Pagoda Structure Revised.prefab using Guid(6836b4ef71f2e47b0b31e22bc8b13b7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'acf2a0ceabcf4c4bad7f474996cd27f5') in 0.008444 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.093731 seconds.
+  path: Assets/Prefabs/Pagoda Structure Revised.prefab
+  artifactKey: Guid(6836b4ef71f2e47b0b31e22bc8b13b7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Pagoda Structure Revised.prefab using Guid(6836b4ef71f2e47b0b31e22bc8b13b7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8fe25ffbca6b8ded5e2d880f87a0267') in 0.008081 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.420589 seconds.
+  path: Assets/Prefabs/Pagoda Structure Revised.prefab
+  artifactKey: Guid(6836b4ef71f2e47b0b31e22bc8b13b7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Pagoda Structure Revised.prefab using Guid(6836b4ef71f2e47b0b31e22bc8b13b7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28fa5a8770f52a3de5ccaeb890daebf9') in 0.007984 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 29.753699 seconds.
+  path: Assets/Prefabs/Pagoda Structure Revised.prefab
+  artifactKey: Guid(6836b4ef71f2e47b0b31e22bc8b13b7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Pagoda Structure Revised.prefab using Guid(6836b4ef71f2e47b0b31e22bc8b13b7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03473c60a52bfef7fcd514eaf60e8157') in 0.007710 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.035207 seconds.
+  path: Assets/Prefabs/Pagoda Structure Revised.prefab
+  artifactKey: Guid(6836b4ef71f2e47b0b31e22bc8b13b7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Pagoda Structure Revised.prefab using Guid(6836b4ef71f2e47b0b31e22bc8b13b7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0823d8d0d3b6d71dfcb6aa440bf595f6') in 0.008514 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 357.710588 seconds.
+  path: Assets/Prefabs/Pagoda Structure Revised.prefab
+  artifactKey: Guid(6836b4ef71f2e47b0b31e22bc8b13b7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Pagoda Structure Revised.prefab using Guid(6836b4ef71f2e47b0b31e22bc8b13b7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0307928b524e50b7b2420b26cd635d1c') in 0.024797 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.907139 seconds.
+  path: Assets/Prefabs/Pagoda Structure Revised.prefab
+  artifactKey: Guid(6836b4ef71f2e47b0b31e22bc8b13b7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Pagoda Structure Revised.prefab using Guid(6836b4ef71f2e47b0b31e22bc8b13b7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2364cbaa70853c43b9d4ff9276522246') in 0.007773 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 32.187751 seconds.
+  path: Assets/Prefabs/Pagoda Structure Revised.prefab
+  artifactKey: Guid(6836b4ef71f2e47b0b31e22bc8b13b7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Pagoda Structure Revised.prefab using Guid(6836b4ef71f2e47b0b31e22bc8b13b7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02834aa98288e091e6bc2548b4aa3ba0') in 0.008407 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.697693 seconds.
+  path: Assets/Prefabs/Pagoda Structure Revised.prefab
+  artifactKey: Guid(6836b4ef71f2e47b0b31e22bc8b13b7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Pagoda Structure Revised.prefab using Guid(6836b4ef71f2e47b0b31e22bc8b13b7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8418860324d8b2592dc3a89ac572740') in 0.007842 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.675284 seconds.
+  path: Assets/Prefabs/Pagoda Structure Revised.prefab
+  artifactKey: Guid(6836b4ef71f2e47b0b31e22bc8b13b7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Pagoda Structure Revised.prefab using Guid(6836b4ef71f2e47b0b31e22bc8b13b7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7dc72725dc886937dc844ea20808b2ba') in 0.008774 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.100901 seconds.
+  path: Assets/Prefabs/Pagoda Structure Revised.prefab
+  artifactKey: Guid(6836b4ef71f2e47b0b31e22bc8b13b7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Pagoda Structure Revised.prefab using Guid(6836b4ef71f2e47b0b31e22bc8b13b7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2df29731d4c3260e173d67963591437') in 0.009264 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.280250 seconds.
+  path: Assets/Prefabs/Pagoda Structure Revised.prefab
+  artifactKey: Guid(6836b4ef71f2e47b0b31e22bc8b13b7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Pagoda Structure Revised.prefab using Guid(6836b4ef71f2e47b0b31e22bc8b13b7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93a806717149df5b38fb26c008de86b3') in 0.008000 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.229672 seconds.
+  path: Assets/Prefabs/Pagoda Structure Revised.prefab
+  artifactKey: Guid(6836b4ef71f2e47b0b31e22bc8b13b7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Pagoda Structure Revised.prefab using Guid(6836b4ef71f2e47b0b31e22bc8b13b7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b501b22855d000f890ff09ff9b7f9ee') in 0.007878 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.880341 seconds.
+  path: Assets/Prefabs/Pagoda Structure Revised.prefab
+  artifactKey: Guid(6836b4ef71f2e47b0b31e22bc8b13b7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Pagoda Structure Revised.prefab using Guid(6836b4ef71f2e47b0b31e22bc8b13b7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec593e41fd424ce17e6f8364406eee32') in 0.008141 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.071748 seconds.
+  path: Assets/Prefabs/Pagoda Structure Revised.prefab
+  artifactKey: Guid(6836b4ef71f2e47b0b31e22bc8b13b7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Pagoda Structure Revised.prefab using Guid(6836b4ef71f2e47b0b31e22bc8b13b7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9c50567918e6fd64decba958589d9ea') in 0.008526 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.431851 seconds.
+  path: Assets/Prefabs/Pagoda Structure Revised.prefab
+  artifactKey: Guid(6836b4ef71f2e47b0b31e22bc8b13b7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Pagoda Structure Revised.prefab using Guid(6836b4ef71f2e47b0b31e22bc8b13b7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f56052bdf7a166c4c745787af11b8b28') in 0.008227 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.298292 seconds.
+  path: Assets/Prefabs/Pagoda Structure Revised.prefab
+  artifactKey: Guid(6836b4ef71f2e47b0b31e22bc8b13b7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Pagoda Structure Revised.prefab using Guid(6836b4ef71f2e47b0b31e22bc8b13b7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b56f28951840db772bfcd7618e13994b') in 0.008117 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.328040 seconds.
+  path: Assets/Prefabs/Pagoda Structure Revised.prefab
+  artifactKey: Guid(6836b4ef71f2e47b0b31e22bc8b13b7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Pagoda Structure Revised.prefab using Guid(6836b4ef71f2e47b0b31e22bc8b13b7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dea3202e075064abee90a0e3e75d20fb') in 0.008145 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.870125 seconds.
+  path: Assets/Prefabs/Pagoda Structure Revised.prefab
+  artifactKey: Guid(6836b4ef71f2e47b0b31e22bc8b13b7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Pagoda Structure Revised.prefab using Guid(6836b4ef71f2e47b0b31e22bc8b13b7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99aa567ee0c0c742df8855c9ef02935a') in 0.008402 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 17.796844 seconds.
+  path: Assets/Prefabs/Pagoda Structure Revised.prefab
+  artifactKey: Guid(6836b4ef71f2e47b0b31e22bc8b13b7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Pagoda Structure Revised.prefab using Guid(6836b4ef71f2e47b0b31e22bc8b13b7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b70af35e5988ce4a3cba5e3e4089e02') in 0.009369 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.869829 seconds.
+  path: Assets/Prefabs/Pagoda Structure Revised.prefab
+  artifactKey: Guid(6836b4ef71f2e47b0b31e22bc8b13b7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Pagoda Structure Revised.prefab using Guid(6836b4ef71f2e47b0b31e22bc8b13b7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3bf5ef6dd79f6fc9b232aa1d8e36c185') in 0.009024 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.066650 seconds.
+  path: Assets/Prefabs/Pagoda Structure Revised.prefab
+  artifactKey: Guid(6836b4ef71f2e47b0b31e22bc8b13b7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Pagoda Structure Revised.prefab using Guid(6836b4ef71f2e47b0b31e22bc8b13b7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9cd1bc8be2b75f8b785cce3a0cea141f') in 0.008664 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.885796 seconds.
+  path: Assets/Prefabs/Pagoda Structure Revised.prefab
+  artifactKey: Guid(6836b4ef71f2e47b0b31e22bc8b13b7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Pagoda Structure Revised.prefab using Guid(6836b4ef71f2e47b0b31e22bc8b13b7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4731167bceeb7b9ee5492d27dc133bf') in 0.014847 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.263103 seconds.
+  path: Assets/Prefabs/Pagoda Structure Revised.prefab
+  artifactKey: Guid(6836b4ef71f2e47b0b31e22bc8b13b7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Pagoda Structure Revised.prefab using Guid(6836b4ef71f2e47b0b31e22bc8b13b7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12342a663df0645c21cc17b33626476b') in 0.007520 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.222142 seconds.
+  path: Assets/Prefabs/Pagoda Structure Revised.prefab
+  artifactKey: Guid(6836b4ef71f2e47b0b31e22bc8b13b7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Pagoda Structure Revised.prefab using Guid(6836b4ef71f2e47b0b31e22bc8b13b7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37e4d80b63c6de1a668891a13831863b') in 0.009422 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.628537 seconds.
+  path: Assets/Prefabs/Pagoda Structure Revised.prefab
+  artifactKey: Guid(6836b4ef71f2e47b0b31e22bc8b13b7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Pagoda Structure Revised.prefab using Guid(6836b4ef71f2e47b0b31e22bc8b13b7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1c9733576f3f6c8ac15be6b28351a24') in 0.009967 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.901648 seconds.
+  path: Assets/Prefabs/Pagoda Structure Revised.prefab
+  artifactKey: Guid(6836b4ef71f2e47b0b31e22bc8b13b7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Pagoda Structure Revised.prefab using Guid(6836b4ef71f2e47b0b31e22bc8b13b7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '539d232b7e3cdace4d636d3126feac64') in 0.008320 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.715098 seconds.
+  path: Assets/Prefabs/Pagoda Structure Revised.prefab
+  artifactKey: Guid(6836b4ef71f2e47b0b31e22bc8b13b7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Pagoda Structure Revised.prefab using Guid(6836b4ef71f2e47b0b31e22bc8b13b7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '080c9d0b5c2fcbec47df7e046a7d5831') in 0.008454 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 15.577654 seconds.
+  path: Assets/Prefabs/Pagoda Structure Revised.prefab
+  artifactKey: Guid(6836b4ef71f2e47b0b31e22bc8b13b7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Pagoda Structure Revised.prefab using Guid(6836b4ef71f2e47b0b31e22bc8b13b7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fdaa0dc5d51c1e943a3133026c2c200') in 0.008145 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 15.748649 seconds.
+  path: Assets/Prefabs/Pagoda Structure Revised.prefab
+  artifactKey: Guid(6836b4ef71f2e47b0b31e22bc8b13b7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Pagoda Structure Revised.prefab using Guid(6836b4ef71f2e47b0b31e22bc8b13b7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c8108916b740535574a3090f5faf69f') in 0.007830 seconds 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
