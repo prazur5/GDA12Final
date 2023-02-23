@@ -22,7 +22,7 @@ AssetImportWorker0
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-50584
+49909
 Successfully changed project path to: /Users/JADUCUT/Documents/GDA12Final/Squadron SpearPoint
 Could not lock editor preferences. Preferences updates for this instance of Unity will not be saved./Users/JADUCUT/Documents/GDA12Final/Squadron SpearPoint
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -54,7 +54,7 @@ Could not lock editor preferences. Preferences updates for this instance of Unit
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 95.41 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 94.12 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.10f1 (1c7d0df0160b)
 [Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2021.3.10f1/Unity.app/Contents/Resources/UnitySubsystems
@@ -69,90 +69,90 @@ Initialize mono
 Mono path[0] = '/Applications/Unity/Hub/Editor/2021.3.10f1/Unity.app/Contents/Managed'
 Mono path[1] = '/Applications/Unity/Hub/Editor/2021.3.10f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
 Mono config path = '/Applications/Unity/Hub/Editor/2021.3.10f1/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56059
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56085
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /Applications/Unity/Hub/Editor/2021.3.10f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
-Registered in 0.001029 seconds.
+Registered in 0.001047 seconds.
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 96.16 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 95.77 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.361 seconds
+- Completed reload, in  1.343 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1362ms)
-		BeginReloadAssembly (141ms)
+	ReloadAssembly (1344ms)
+		BeginReloadAssembly (148ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (3ms)
-		EndReloadAssembly (998ms)
-			LoadAssemblies (139ms)
+			CreateAndSetChildDomain (2ms)
+		EndReloadAssembly (974ms)
+			LoadAssemblies (147ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (141ms)
+			SetupTypeCache (138ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (33ms)
-			SetupLoadedEditorAssemblies (684ms)
+			SetupLoadedEditorAssemblies (662ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (17ms)
+				InitializePlatformSupportModulesInManaged (16ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (96ms)
 				BeforeProcessingInitializeOnLoad (3ms)
-				ProcessInitializeOnLoadAttributes (426ms)
-				ProcessInitializeOnLoadMethodAttributes (141ms)
+				ProcessInitializeOnLoadAttributes (409ms)
+				ProcessInitializeOnLoadMethodAttributes (137ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.002596 seconds.
+Registered in 0.002447 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image /Users/JADUCUT/Documents/GDA12Final/Squadron SpearPoint/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image /Users/JADUCUT/Documents/GDA12Final/Squadron SpearPoint/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.56 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.54 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.193 seconds
+- Completed reload, in  2.216 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2195ms)
-		BeginReloadAssembly (212ms)
+	ReloadAssembly (2218ms)
+		BeginReloadAssembly (215ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (29ms)
+			DisableScriptedObjects (28ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (37ms)
-		EndReloadAssembly (1704ms)
-			LoadAssemblies (126ms)
+			CreateAndSetChildDomain (35ms)
+		EndReloadAssembly (1722ms)
+			LoadAssemblies (131ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (352ms)
+			SetupTypeCache (361ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (62ms)
-			SetupLoadedEditorAssemblies (1024ms)
+			RebuildScriptCaches (61ms)
+			SetupLoadedEditorAssemblies (1022ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (13ms)
+				InitializePlatformSupportModulesInManaged (14ms)
 				SetLoadedEditorAssemblies (2ms)
 				RefreshPlugins (1ms)
 				BeforeProcessingInitializeOnLoad (123ms)
-				ProcessInitializeOnLoadAttributes (775ms)
-				ProcessInitializeOnLoadMethodAttributes (109ms)
+				ProcessInitializeOnLoadAttributes (769ms)
+				ProcessInitializeOnLoadMethodAttributes (112ms)
 				AfterProcessingInitializeOnLoad (1ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (10ms)
+			AwakeInstancesAfterBackupRestoration (12ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launching external process: /Applications/Unity/Hub/Editor/2021.3.10f1/Unity.app/Contents/Tools/UnityShaderCompiler
-Launched and connected shader compiler UnityShaderCompiler after 0.08 seconds
+Launched and connected shader compiler UnityShaderCompiler after 0.07 seconds
 Refreshing native plugins compatible for Editor in 0.55 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3444 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 27 unused Assets / (97.4 KB). Loaded Objects now: 3907.
-Memory consumption went from 237.2 MB to 237.1 MB.
-Total: 2.719417 ms (FindLiveObjects: 0.179917 ms CreateObjectMapping: 0.077875 ms MarkObjects: 2.348875 ms  DeleteObjects: 0.111791 ms)
+Memory consumption went from 237.3 MB to 237.2 MB.
+Total: 2.807750 ms (FindLiveObjects: 0.219875 ms CreateObjectMapping: 0.080417 ms MarkObjects: 2.384792 ms  DeleteObjects: 0.120250 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -166,31 +166,109 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 7986.847396 seconds.
+  Time since last request: 5497.528780 seconds.
   path: Assets/Prefabs/Pagoda Structure Revised.prefab
   artifactKey: Guid(6836b4ef71f2e47b0b31e22bc8b13b7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Pagoda Structure Revised.prefab using Guid(6836b4ef71f2e47b0b31e22bc8b13b7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1910d08337a03420bba090e96d4f9575') in 0.840635 seconds 
+Start importing Assets/Prefabs/Pagoda Structure Revised.prefab using Guid(6836b4ef71f2e47b0b31e22bc8b13b7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3b37a5b456b0e04dc34633d649213b2') in 0.447495 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.253560 seconds.
+  Time since last request: 2.905599 seconds.
   path: Assets/Prefabs/Pagoda Structure Revised.prefab
   artifactKey: Guid(6836b4ef71f2e47b0b31e22bc8b13b7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Pagoda Structure Revised.prefab using Guid(6836b4ef71f2e47b0b31e22bc8b13b7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64751cbdd14a5c9a4503ba77e5e1188c') in 0.019186 seconds 
+Start importing Assets/Prefabs/Pagoda Structure Revised.prefab using Guid(6836b4ef71f2e47b0b31e22bc8b13b7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed017216ceeaf9ef67e2bf989674e96f') in 0.015974 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 17.523039 seconds.
+  Time since last request: 6.651516 seconds.
   path: Assets/Prefabs/Pagoda Structure Revised.prefab
   artifactKey: Guid(6836b4ef71f2e47b0b31e22bc8b13b7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Pagoda Structure Revised.prefab using Guid(6836b4ef71f2e47b0b31e22bc8b13b7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8e100f06ac4dd0218321db6d52128f1') in 0.008401 seconds 
+Start importing Assets/Prefabs/Pagoda Structure Revised.prefab using Guid(6836b4ef71f2e47b0b31e22bc8b13b7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47e635cf6199a60fbda7c823a4b35266') in 0.008662 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 20.840744 seconds.
+  Time since last request: 2.813323 seconds.
   path: Assets/Prefabs/Pagoda Structure Revised.prefab
   artifactKey: Guid(6836b4ef71f2e47b0b31e22bc8b13b7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Pagoda Structure Revised.prefab using Guid(6836b4ef71f2e47b0b31e22bc8b13b7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2095500fd1a25010099755416c52252') in 0.008590 seconds 
+Start importing Assets/Prefabs/Pagoda Structure Revised.prefab using Guid(6836b4ef71f2e47b0b31e22bc8b13b7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fab227e075b0cc145067b37c19dd86c1') in 0.008495 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 2.951969 seconds.
+  Time since last request: 20.631876 seconds.
   path: Assets/Prefabs/Pagoda Structure Revised.prefab
   artifactKey: Guid(6836b4ef71f2e47b0b31e22bc8b13b7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Pagoda Structure Revised.prefab using Guid(6836b4ef71f2e47b0b31e22bc8b13b7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e68fd4b4fa237d6e61d559d4caf5e979') in 0.008469 seconds 
+Start importing Assets/Prefabs/Pagoda Structure Revised.prefab using Guid(6836b4ef71f2e47b0b31e22bc8b13b7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e29cb6ed0b3a094a7835c3d0cbc64ba7') in 0.008245 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.879979 seconds.
+  path: Assets/Prefabs/Pagoda Structure Revised.prefab
+  artifactKey: Guid(6836b4ef71f2e47b0b31e22bc8b13b7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Pagoda Structure Revised.prefab using Guid(6836b4ef71f2e47b0b31e22bc8b13b7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ef9eef496f794b6885c393dafbac555') in 0.008256 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 41.589979 seconds.
+  path: Assets/Prefabs/Pagoda Structure Revised.prefab
+  artifactKey: Guid(6836b4ef71f2e47b0b31e22bc8b13b7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Pagoda Structure Revised.prefab using Guid(6836b4ef71f2e47b0b31e22bc8b13b7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0fdcc4a69e0dc521cfa79f9c8938299') in 0.007766 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.868382 seconds.
+  path: Assets/Prefabs/Pagoda Structure Revised.prefab
+  artifactKey: Guid(6836b4ef71f2e47b0b31e22bc8b13b7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Pagoda Structure Revised.prefab using Guid(6836b4ef71f2e47b0b31e22bc8b13b7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64f9b963cf9e02010a87d2245fbe147e') in 0.008396 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.253900 seconds.
+  path: Assets/Prefabs/Pagoda Structure Revised.prefab
+  artifactKey: Guid(6836b4ef71f2e47b0b31e22bc8b13b7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Pagoda Structure Revised.prefab using Guid(6836b4ef71f2e47b0b31e22bc8b13b7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd78f79ebeee6f029f3f319bd777d75c6') in 0.008156 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.245843 seconds.
+  path: Assets/Prefabs/Pagoda Structure Revised.prefab
+  artifactKey: Guid(6836b4ef71f2e47b0b31e22bc8b13b7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Pagoda Structure Revised.prefab using Guid(6836b4ef71f2e47b0b31e22bc8b13b7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8771f98aa9605592ba8fe0c9d0328767') in 0.008484 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 21.402272 seconds.
+  path: Assets/Prefabs/Pagoda Structure Revised.prefab
+  artifactKey: Guid(6836b4ef71f2e47b0b31e22bc8b13b7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Pagoda Structure Revised.prefab using Guid(6836b4ef71f2e47b0b31e22bc8b13b7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed138afb0a9e2ef2b2a3df315a26afe3') in 0.008931 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 14.914619 seconds.
+  path: Assets/Prefabs/Pagoda Structure Revised.prefab
+  artifactKey: Guid(6836b4ef71f2e47b0b31e22bc8b13b7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Pagoda Structure Revised.prefab using Guid(6836b4ef71f2e47b0b31e22bc8b13b7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98e524fa80df4356815798efb2e6945a') in 0.009719 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.809553 seconds.
+  path: Assets/Prefabs/Pagoda Structure Revised.prefab
+  artifactKey: Guid(6836b4ef71f2e47b0b31e22bc8b13b7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Pagoda Structure Revised.prefab using Guid(6836b4ef71f2e47b0b31e22bc8b13b7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5575816ac5a820c1fecde8b40fae1dff') in 0.008866 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 22.236583 seconds.
+  path: Assets/Prefabs/Pagoda Structure Revised.prefab
+  artifactKey: Guid(6836b4ef71f2e47b0b31e22bc8b13b7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Pagoda Structure Revised.prefab using Guid(6836b4ef71f2e47b0b31e22bc8b13b7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c8a34dcc227573ef0be124207e354fd') in 0.009073 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.041074 seconds.
+  path: Assets/Prefabs/Pagoda Structure Revised.prefab
+  artifactKey: Guid(6836b4ef71f2e47b0b31e22bc8b13b7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Pagoda Structure Revised.prefab using Guid(6836b4ef71f2e47b0b31e22bc8b13b7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39ce8c647c324ead1e823b508c2a4b2e') in 0.009332 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 27.258579 seconds.
+  path: Assets/Prefabs/Pagoda Structure Revised.prefab
+  artifactKey: Guid(6836b4ef71f2e47b0b31e22bc8b13b7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Pagoda Structure Revised.prefab using Guid(6836b4ef71f2e47b0b31e22bc8b13b7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1eacc5ea78f18a02926f6d0f89805539') in 0.009767 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.040746 seconds.
+  path: Assets/Prefabs/Pagoda Structure Revised.prefab
+  artifactKey: Guid(6836b4ef71f2e47b0b31e22bc8b13b7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Pagoda Structure Revised.prefab using Guid(6836b4ef71f2e47b0b31e22bc8b13b7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70893b903071c810bc8714a19334da9c') in 0.010079 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.640049 seconds.
+  path: Assets/Prefabs/Pagoda Structure Revised.prefab
+  artifactKey: Guid(6836b4ef71f2e47b0b31e22bc8b13b7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Pagoda Structure Revised.prefab using Guid(6836b4ef71f2e47b0b31e22bc8b13b7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f213db12b3d68c0df06a3697b93f8d32') in 0.009734 seconds 
