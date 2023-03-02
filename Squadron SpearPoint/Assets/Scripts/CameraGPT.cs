@@ -8,8 +8,6 @@ public class CameraGPT : MonoBehaviour
     public float cameraOffset = 10f;
     public float cameraSpeed = 5f;
 
-    private Vector3 targetPosition;
-
     void Start()
     {
         if (player == null)
@@ -18,11 +16,15 @@ public class CameraGPT : MonoBehaviour
         }
     }
 
-    void Update()
+    void LateUpdate()
     {
-        targetPosition = new Vector3(transform.position.x, transform.position.y, player.position.z - cameraOffset);
+        Vector3 targetPosition = player.position - player.forward * cameraOffset;
+        Quaternion targetRotation = Quaternion.LookRotation(player.position - transform.position, player.up);
 
         transform.position = Vector3.Lerp(transform.position, targetPosition, cameraSpeed * Time.deltaTime);
+        transform.rotation = Quaternion.Lerp(transform.rotation, targetRotation, cameraSpeed * Time.deltaTime);
     }
 }
+
+    
 
