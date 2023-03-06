@@ -470,7 +470,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963194225}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 22711e2217e9c490992e3412389fbd27, type: 3}
   m_Name: 
@@ -489,8 +489,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 420312950}
-  cameraOffset: 10
   cameraSpeed: 5
+  SD_TigerI: {fileID: 420312944}
 --- !u!1 &1171860095
 GameObject:
   m_ObjectHideFlags: 0
