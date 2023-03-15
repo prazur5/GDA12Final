@@ -5,7 +5,7 @@ using UnityEngine;
 public class NewBullet : MonoBehaviour
 {
     public float speed = 40.0f;
-    public GameObject bullet;
+    //public GameObject bullet;
     // Start is called before the first frame update
     void Start()
     {
@@ -16,8 +16,8 @@ public class NewBullet : MonoBehaviour
     void Update()
     {
         transform.Translate(Vector3.forward * Time.deltaTime * speed);
-        if (Vector3.Distance(transform.position, bullet.transform.position) > 20)
-            Destroy(bullet);
+        //if (Vector3.Distance(transform.position, bullet.transform.position) > 20)
+            //Destroy(bullet);
 
     }
 
