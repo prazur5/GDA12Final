@@ -412,6 +412,7 @@
 "Assets/Scripts/CannonScript.cs"
 "Assets/Scripts/Copy_Barrage.cs"
 "Assets/Scripts/DestroyObjectOff.cs"
+"Assets/Scripts/Enemy.cs"
 "Assets/Scripts/FollowPlayer.cs"
 "Assets/Scripts/Input_Turning.cs"
 "Assets/Scripts/Main_Tankcontroller.cs"

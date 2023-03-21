@@ -7,6 +7,10 @@ public class NewBullet : MonoBehaviour
     public float speed = 40.0f;
     //public GameObject bullet;
     // Start is called before the first frame update
+    public float damage;
+    private GameObject triggeringEnemy;
+
+
     void Start()
     {
 
@@ -25,5 +29,13 @@ public class NewBullet : MonoBehaviour
     {
         Destroy(gameObject);
         Destroy(other.gameObject);
+
+        if(other.tag == "Bullet")
+        {
+            triggeringEnemy = other.gameObject;
+            triggeringEnemy.GetComponent<Enemy>().health -= damage;
+        }
     }
+
+    
 }
